@@ -1,0 +1,487 @@
+298.*
+298.*
+cju2lcyfgkf5809932fn9gucn.*
+cju2lcyfgkf5809932fn9gucn.*
+468.*
+468.*
+418.*
+418.*
+418  ----load----
+cju2lcyfgkf5809932fn9gucn  ----load----
+468  ----load----
+img: (384, 288)
+img: (384, 288)
+img: (571, 530)
+mask: (384, 288)
+mask: (384, 288)
+mask: (571, 530)
+298  ----load----
+img: (384, 288)
+mask: (384, 288)
+(192, 144) RGB mask False
+(192, 144) RGB mask False
+(192, 144) RGB mask False
+(192, 144) L mask True
+468  --------
+img: 82944
+mask: 27648
+(192, 144) L mask True
+418  --------
+img: 82944
+mask: 27648
+(192, 144) L mask True
+298  --------
+img: 82944
+mask: 27648
+cju2zr3c3vwb00993jn06bbaz.*
+cju2zr3c3vwb00993jn06bbaz.*
+490.*
+490.*
+cju2zr3c3vwb00993jn06bbaz  ----load----
+img: (575, 531)
+mask: (575, 531)
+399.*
+399.*
+490  ----load----
+img: (384, 288)
+mask: (384, 288)
+399  ----load----
+img: (384, 288)
+mask: (384, 288)
+(285, 265) RGB mask False
+(192, 144) RGB mask False
+(192, 144) RGB mask False
+(192, 144) L mask True
+490  --------
+img: 82944
+mask: 27648
+(192, 144) L mask True
+399  --------
+img: 82944
+mask: 27648
+259.*
+259.*
+329.*
+329.*
+259  ----load----
+img: (384, 288)
+mask: (384, 288)
+329  ----load----
+img: (384, 288)
+mask: (384, 288)
+(285, 265) RGB mask True
+cju2lcyfgkf5809932fn9gucn  --------
+img: 226575
+mask: 226575
+(287, 265) RGB mask False
+cju8dpa89u6l80818dj6lldh9.*
+cju8dpa89u6l80818dj6lldh9.*
+(192, 144) RGB mask False
+cju8dpa89u6l80818dj6lldh9  ----load----
+img: (623, 529)
+mask: (623, 529)
+(192, 144) RGB mask False
+(192, 144) L mask True
+329  --------
+img: 82944
+mask: 27648
+(192, 144) L mask True
+259  --------
+img: 82944
+mask: 27648
+cju1dg44i4z3w0801nyz4p6zf.*
+cju1dg44i4z3w0801nyz4p6zf.*
+cju1dg44i4z3w0801nyz4p6zf  ----load----
+img: (623, 528)
+mask: (623, 528)
+cju5bf6hxa6m50817rbwettgu.*
+cju5bf6hxa6m50817rbwettgu.*
+(287, 265) RGB mask True
+cju5bf6hxa6m50817rbwettgu  ----load----
+img: (622, 531)
+mask: (622, 531)
+cju2zr3c3vwb00993jn06bbaz  --------
+img: 228165
+mask: 228165
+cju2yljr0yzhw0988ecf271ly.*
+cju2yljr0yzhw0988ecf271ly.*
+cju2yljr0yzhw0988ecf271ly  ----load----
+img: (1220, 1009)
+mask: (1220, 1009)
+(311, 264) RGB mask False
+(311, 264) RGB mask False
+(311, 265) RGB mask False
+(311, 264) RGB mask True
+cju8dpa89u6l80818dj6lldh9  --------
+img: 246312
+mask: 246312
+(311, 264) RGB mask True
+cju1dg44i4z3w0801nyz4p6zf  --------
+img: 246312
+mask: 246312
+(311, 265) RGB mask True
+cju5bf6hxa6m50817rbwettgu  --------
+img: 247245
+mask: 247245
+241.*
+241.*
+241  ----load----
+img: (384, 288)
+mask: (384, 288)
+452.*
+452.*
+460.*
+460.*
+452  ----load----
+img: (384, 288)
+mask: (384, 288)
+460  ----load----
+img: (384, 288)
+mask: (384, 288)
+(192, 144) RGB mask False
+(192, 144) RGB mask False
+(192, 144) RGB mask False
+(192, 144) L mask True
+460  --------
+img: 82944
+mask: 27648
+(192, 144) L mask True
+(192, 144) L mask True
+452  --------
+img: 82944
+mask: 27648
+241  --------
+img: 82944
+mask: 27648
+cju14g8o4xui30878gkgbrvqj.*
+cju14g8o4xui30878gkgbrvqj.*
+cju14g8o4xui30878gkgbrvqj  ----load----
+img: (622, 531)
+mask: (622, 531)
+536.*
+536.*
+375.*
+375.*
+536  ----load----
+img: (384, 288)
+mask: (384, 288)
+375  ----load----
+img: (384, 288)
+mask: (384, 288)
+(192, 144) RGB mask False
+(192, 144) RGB mask False
+(192, 144) L mask True
+375  --------
+img: 82944
+mask: 27648
+(192, 144) L mask True
+536  --------
+img: 82944
+mask: 27648
+437.*
+437.*
+366.*
+366.*
+437  ----load----
+img: (384, 288)
+mask: (384, 288)
+366  ----load----
+img: (384, 288)
+mask: (384, 288)
+(311, 265) RGB mask False
+(192, 144) RGB mask False
+(192, 144) RGB mask False
+(192, 144) L mask True
+366  --------
+img: 82944
+mask: 27648
+(192, 144) L mask True
+437  --------
+img: 82944
+mask: 27648
+(311, 265) RGB mask True
+cju14g8o4xui30878gkgbrvqj  --------
+img: 247245
+mask: 247245
+cju88itqbny720987hxizbj5y.*
+cju88itqbny720987hxizbj5y.*
+cju2rzpsmtb0f0835jabkbao1.*
+cju2rzpsmtb0f0835jabkbao1.*
+cju88itqbny720987hxizbj5y  ----load----
+img: (570, 530)
+mask: (570, 530)
+cju2rzpsmtb0f0835jabkbao1  ----load----
+img: (528, 528)
+mask: (528, 528)
+426.*
+426.*
+426  ----load----
+img: (384, 288)
+mask: (384, 288)
+(610, 504) RGB mask False
+(192, 144) RGB mask False
+(192, 144) L mask True
+426  --------
+img: 82944
+mask: 27648
+(264, 264) RGB mask False
+(285, 265) RGB mask False
+cju85citjlnfm0755i4rk5tqj.*
+cju85citjlnfm0755i4rk5tqj.*
+cju85citjlnfm0755i4rk5tqj  ----load----
+img: (623, 547)
+mask: (623, 547)
+(264, 264) RGB mask True
+cju2rzpsmtb0f0835jabkbao1  --------
+img: 209088
+mask: 209088
+(285, 265) RGB mask True
+cju88itqbny720987hxizbj5y  --------
+img: 226575
+mask: 226575
+cju1c6yfz42md08550zgoz3pw.*
+cju1c6yfz42md08550zgoz3pw.*
+cju1c6yfz42md08550zgoz3pw  ----load----
+img: (536, 530)
+mask: (536, 530)
+354.*
+354.*
+354  ----load----
+img: (384, 288)
+mask: (384, 288)
+(610, 504) RGB mask True
+cju2yljr0yzhw0988ecf271ly  --------
+img: 922320
+mask: 922320
+(192, 144) RGB mask False
+(192, 144) L mask True
+354  --------
+img: 82944
+mask: 27648
+(311, 273) RGB mask False
+cju2nd7l7z98o0799gfjvyfmw.*
+cju2nd7l7z98o0799gfjvyfmw.*
+cju2nd7l7z98o0799gfjvyfmw  ----load----
+img: (1348, 1070)
+mask: (1348, 1070)
+310.*
+310.*
+310  ----load----
+img: (384, 288)
+mask: (384, 288)
+(268, 265) RGB mask False
+(311, 273) RGB mask True
+cju85citjlnfm0755i4rk5tqj  --------
+img: 254709
+mask: 254709
+(192, 144) RGB mask False
+(268, 265) RGB mask True
+cju1c6yfz42md08550zgoz3pw  --------
+img: 213060
+mask: 213060
+(192, 144) L mask True
+310  --------
+img: 82944
+mask: 27648
+234.*
+234.*
+234  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju3xiic0ilzp0850lusrb42j.*
+cju3xiic0ilzp0850lusrb42j.*
+cju3xiic0ilzp0850lusrb42j  ----load----
+img: (571, 530)
+mask: (571, 530)
+cju1fjsb4sipq09931lvd8e41.*
+cju1fjsb4sipq09931lvd8e41.*
+cju1fjsb4sipq09931lvd8e41  ----load----
+img: (622, 530)
+mask: (622, 530)
+(192, 144) RGB mask False
+(192, 144) L mask True
+234  --------
+img: 82944
+mask: 27648
+466.*
+466.*
+466  ----load----
+img: (384, 288)
+mask: (384, 288)
+(285, 265) RGB mask False
+(192, 144) RGB mask False
+(192, 144) L mask True
+466  --------
+img: 82944
+mask: 27648
+(311, 265) RGB mask False
+318.*
+318.*
+318  ----load----
+img: (384, 288)
+mask: (384, 288)
+(285, 265) RGB mask True
+cju3xiic0ilzp0850lusrb42j  --------
+img: 226575
+mask: 226575
+(311, 265) RGB mask True
+cju1fjsb4sipq09931lvd8e41  --------
+img: 247245
+mask: 247245
+(192, 144) RGB mask False
+(192, 144) L mask True
+318  --------
+img: 82944
+mask: 27648
+cju2p0eveqtdc0835gpi3p93i.*
+cju2p0eveqtdc0835gpi3p93i.*
+cju2p0eveqtdc0835gpi3p93i  ----load----
+img: (622, 528)
+mask: (622, 528)
+cju43lcnum9y10755bjs7z87f.*
+cju43lcnum9y10755bjs7z87f.*
+cju43lcnum9y10755bjs7z87f  ----load----
+img: (590, 528)
+mask: (590, 528)
+cju5wcc90lu020850mjrxppv6.*
+cju5wcc90lu020850mjrxppv6.*
+cju5wcc90lu020850mjrxppv6  ----load----
+img: (626, 547)
+mask: (626, 547)
+(295, 264) RGB mask False
+(311, 264) RGB mask False
+(313, 273) RGB mask False
+(295, 264) RGB mask True
+cju43lcnum9y10755bjs7z87f  --------
+img: 233640
+mask: 233640
+(311, 264) RGB mask True
+cju2p0eveqtdc0835gpi3p93i  --------
+img: 246312
+mask: 246312
+(313, 273) RGB mask True
+cju5wcc90lu020850mjrxppv6  --------
+img: 256347
+mask: 256347
+273.*
+273.*
+273  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju7dxffn2eam0817qxosfwch.*
+cju7dxffn2eam0817qxosfwch.*
+cju7dxffn2eam0817qxosfwch  ----load----
+img: (626, 546)
+mask: (626, 546)
+(674, 535) RGB mask False
+(192, 144) RGB mask False
+(192, 144) L mask True
+273  --------
+img: 82944
+mask: 27648
+cju7b4mtw1n9n080186209f3d.*
+cju7b4mtw1n9n080186209f3d.*
+cju7b4mtw1n9n080186209f3d  ----load----
+img: (600, 528)
+mask: (600, 528)
+(313, 273) RGB mask False
+(300, 264) RGB mask False
+(313, 273) RGB mask True
+cju7dxffn2eam0817qxosfwch  --------
+img: 256347
+mask: 256347
+(674, 535) RGB mask True
+cju2nd7l7z98o0799gfjvyfmw  --------
+img: 1081770
+mask: 1081770
+cju88gx09o2vk0818610zody3.*
+cju88gx09o2vk0818610zody3.*
+cju88gx09o2vk0818610zody3  ----load----
+img: (626, 547)
+mask: (626, 547)
+(300, 264) RGB mask True
+cju7b4mtw1n9n080186209f3d  --------
+img: 237600
+mask: 237600
+cju43o6n7m9nk087191ijwqq9.*
+cju43o6n7m9nk087191ijwqq9.*
+cju43o6n7m9nk087191ijwqq9  ----load----
+img: (618, 530)
+mask: (618, 530)
+(313, 273) RGB mask False
+(309, 265) RGB mask False
+(313, 273) RGB mask True
+cju88gx09o2vk0818610zody3  --------
+img: 256347
+mask: 256347
+cju43kj2pm34f0850l28ahpni.*
+cju43kj2pm34f0850l28ahpni.*
+(309, 265) RGB mask True
+cju43o6n7m9nk087191ijwqq9  --------
+img: 245655
+mask: 245655
+cju43kj2pm34f0850l28ahpni  ----load----
+img: (622, 528)
+mask: (622, 528)
+223.*
+223.*
+223  ----load----
+img: (384, 288)
+mask: (384, 288)
+(192, 144) RGB mask False
+(192, 144) L mask True
+223  --------
+img: 82944
+mask: 27648
+(311, 264) RGB mask False
+(311, 264) RGB mask True
+cju43kj2pm34f0850l28ahpni  --------
+img: 246312
+mask: 246312
+cju5ukkg6kv7u08011x2b6zl5.*
+cju5ukkg6kv7u08011x2b6zl5.*
+cju5ukkg6kv7u08011x2b6zl5  ----load----
+img: (622, 510)
+mask: (622, 510)
+(311, 255) RGB mask False
+(311, 255) RGB mask True
+cju5ukkg6kv7u08011x2b6zl5  --------
+img: 237915
+mask: 237915
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      5
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    amp=args.amp)
+  File "train.py", line 76, in train_net
+    for batch in train_loader:
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/_utils.py", line 434, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in default_collate
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in <dictcomp>
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 56, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: stack expects each tensor to be equal size, but got [3, 144, 192] at entry 0 and [3, 264, 311] at entry 3

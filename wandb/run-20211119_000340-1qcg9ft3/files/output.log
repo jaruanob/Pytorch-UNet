@@ -1,0 +1,183 @@
+350.*
+350.*
+cju2tpfa5uyx408359datxqqj.*
+cju2tpfa5uyx408359datxqqj.*
+cju5x7iskmad90818frchyfwd.*
+cju5x7iskmad90818frchyfwd.*
+cju5v8pgplg6k0755rvi2t63h.*
+cju5v8pgplg6k0755rvi2t63h.*
+350  ----load----
+cju5x7iskmad90818frchyfwd  ----load----
+img: (522, 483)
+img: (384, 288)
+mask: (522, 483)
+mask: (384, 288)
+cju2tpfa5uyx408359datxqqj  ----load----
+img: (622, 528)
+mask: (622, 528)
+(250, 250) RGB mask False
+(250, 250) L mask True
+350  --------
+img: 187500
+mask: 62500
+cju5v8pgplg6k0755rvi2t63h  ----load----
+img: (570, 530)
+mask: (570, 530)
+cju2lz8vqktne0993fuym6drw.*
+cju2lz8vqktne0993fuym6drw.*
+cju2lz8vqktne0993fuym6drw  ----load----
+img: (613, 531)
+mask: (613, 531)
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju5x7iskmad90818frchyfwd  --------
+img: 187500
+mask: 187500
+cju303j5r062k098835zxfds5.*
+cju303j5r062k098835zxfds5.*
+cju303j5r062k098835zxfds5  ----load----
+img: (626, 546)
+mask: (626, 546)
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju2tpfa5uyx408359datxqqj  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju5v8pgplg6k0755rvi2t63h  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju2lz8vqktne0993fuym6drw  --------
+img: 187500
+mask: 187500
+cju5cjh3xattc0817j2vbulzi.*
+cju5cjh3xattc0817j2vbulzi.*
+cju5cjh3xattc0817j2vbulzi  ----load----
+img: (617, 528)
+mask: (617, 528)
+cju5wuhm1lwm40987vugqn3vv.*
+cju5wuhm1lwm40987vugqn3vv.*
+cju5wuhm1lwm40987vugqn3vv  ----load----
+img: (613, 530)
+mask: (613, 530)
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju303j5r062k098835zxfds5  --------
+img: 187500
+mask: 187500
+cju34o6dbd2lo0855aqlcy1hs.*
+cju34o6dbd2lo0855aqlcy1hs.*
+cju34o6dbd2lo0855aqlcy1hs  ----load----
+img: (623, 476)
+mask: (623, 476)
+cju5nxkujgscq0817l9gss626.*
+(250, 250) RGB mask False
+cju5nxkujgscq0817l9gss626.*
+cju5nxkujgscq0817l9gss626  ----load----
+img: (570, 531)
+mask: (570, 531)
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju5wuhm1lwm40987vugqn3vv  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju5cjh3xattc0817j2vbulzi  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju34o6dbd2lo0855aqlcy1hs  --------
+img: 187500
+mask: 187500
+ck2bxlujamu330725szlc2jdu.*
+ck2bxlujamu330725szlc2jdu.*
+ck2bxlujamu330725szlc2jdu  ----load----
+img: (720, 576)
+mask: (720, 576)
+328.*
+328.*
+328  ----load----
+img: (384, 288)
+mask: (384, 288)
+570.*
+570.*
+(250, 250) RGB mask False
+570  ----load----
+img: (384, 288)
+mask: (384, 288)
+(250, 250) RGB mask True
+cju5nxkujgscq0817l9gss626  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) L mask True
+328  --------
+img: 187500
+mask: 62500
+(250, 250) L mask True
+570  --------
+img: 187500
+mask: 62500
+cju5woy82m07m08505dmjg7g1.*
+cju5woy82m07m08505dmjg7g1.*
+cju5woy82m07m08505dmjg7g1  ----load----
+img: (1348, 1070)
+mask: (1348, 1070)
+560.*
+560.*
+560  ----load----
+img: (384, 288)
+mask: (384, 288)
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) L mask True
+560  --------
+img: 187500
+mask: 62500
+(250, 250) RGB mask True
+ck2bxlujamu330725szlc2jdu  --------
+img: 187500
+mask: 187500
+cju2phaksnahz0993yxogjcpv.*
+cju2phaksnahz0993yxogjcpv.*
+cju2phaksnahz0993yxogjcpv  ----load----
+img: (622, 528)
+mask: (622, 528)
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju2phaksnahz0993yxogjcpv  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju5woy82m07m08505dmjg7g1  --------
+img: 187500
+mask: 187500
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      2
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images size:     [250.0, 250.0]
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 189, in <module>
+    amp=args.amp)
+  File "train.py", line 91, in train_net
+    loss = criterion(masks_pred, true_masks) \
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/modules/loss.py", line 1152, in forward
+    label_smoothing=self.label_smoothing)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/functional.py", line 2846, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: only batches of spatial targets supported (3D tensors) but got targets of size: : [2, 250, 250, 3]

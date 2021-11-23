@@ -1,0 +1,373 @@
+522.*
+522.*
+515.*
+515.*
+cju32qr9tbvsj08013pkpjenq.*
+cju43kj2pm34f0850l28ahpni.*
+cju32qr9tbvsj08013pkpjenq.*
+cju43kj2pm34f0850l28ahpni.*
+515  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju32qr9tbvsj08013pkpjenq  ----load----
+cju43kj2pm34f0850l28ahpni  ----load----
+img: (615, 546)
+img: (622, 528)
+mask: (615, 546)
+mask: (622, 528)
+522  ----load----
+img: (384, 288)
+mask: (384, 288)
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) L mask True
+(250, 250) L mask True
+515  --------
+522  --------
+img: 187500
+img: 187500
+mask: 187500
+mask: 187500
+cju2zdvjn9h7r08553cp4eed5.*
+cju1fr4etsmrr09933u4t4aql.*
+cju1fr4etsmrr09933u4t4aql.*
+cju2zdvjn9h7r08553cp4eed5.*
+cju1fr4etsmrr09933u4t4aql  ----load----
+cju2zdvjn9h7r08553cp4eed5  ----load----
+img: (570, 521)
+img: (401, 415)
+mask: (570, 521)
+mask: (401, 415)
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju2zdvjn9h7r08553cp4eed5  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+(250, 250) RGB mask False
+cju32qr9tbvsj08013pkpjenq  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju43kj2pm34f0850l28ahpni  --------
+img: 187500
+mask: 187500
+cjyzl833ndne80838pzuq6ila.*
+cjyzl833ndne80838pzuq6ila.*
+cjyzl833ndne80838pzuq6ila  ----load----
+img: (720, 576)
+mask: (720, 576)
+(250, 250) RGB mask True
+cju1fr4etsmrr09933u4t4aql  --------
+img: 187500
+mask: 187500
+cju7bmi1v1pnj0987pa52jjok.*
+cju7bmi1v1pnj0987pa52jjok.*
+cju2igw4gvxds0878808qj398.*
+cju2igw4gvxds0878808qj398.*
+cju7bmi1v1pnj0987pa52jjok  ----load----
+cju2igw4gvxds0878808qj398  ----load----
+img: (614, 530)
+img: (626, 546)
+mask: (626, 546)
+mask: (614, 530)
+150.*
+150.*
+150  ----load----
+img: (384, 288)
+mask: (384, 288)
+(250, 250) RGB mask False
+(250, 250) L mask True
+150  --------
+img: 187500
+mask: 187500
+cju5kre09fhka0850h7b1898j.*
+cju5kre09fhka0850h7b1898j.*
+cju5kre09fhka0850h7b1898j  ----load----
+img: (618, 528)
+mask: (618, 528)
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cjyzl833ndne80838pzuq6ila  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+cju1c4fcu40hl07992b8gj0c8.*
+cju1c4fcu40hl07992b8gj0c8.*
+cju1c4fcu40hl07992b8gj0c8  ----load----
+img: (626, 546)
+mask: (626, 546)
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju7bmi1v1pnj0987pa52jjok  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju2igw4gvxds0878808qj398  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju5kre09fhka0850h7b1898j  --------
+img: 187500
+mask: 187500
+311.*
+311.*
+311  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju83h9ysjwe808716nt35oah.*
+cju83h9ysjwe808716nt35oah.*
+cju83h9ysjwe808716nt35oah  ----load----
+img: (571, 531)
+mask: (571, 531)
+cju2z9vlp9j0w0801oag91sy9.*
+cju2z9vlp9j0w0801oag91sy9.*
+cju2z9vlp9j0w0801oag91sy9  ----load----
+img: (622, 531)
+mask: (622, 531)
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) L mask True
+311  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju1c4fcu40hl07992b8gj0c8  --------
+img: 187500
+mask: 187500
+cju7g7ba42z310987bqzbi2bq.*
+cju7g7ba42z310987bqzbi2bq.*
+598.*
+cju7g7ba42z310987bqzbi2bq  ----load----
+598.*
+img: (588, 530)
+mask: (588, 530)
+598  ----load----
+img: (384, 288)
+mask: (384, 288)
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) L mask True
+598  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju2z9vlp9j0w0801oag91sy9  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju83h9ysjwe808716nt35oah  --------
+img: 187500
+mask: 187500
+33.*
+33.*
+33  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju32csyfblyh080170aa3x5p.*
+cju32csyfblyh080170aa3x5p.*
+cju32csyfblyh080170aa3x5p  ----load----
+img: (626, 547)
+mask: (626, 547)
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) L mask True
+33  --------
+img: 187500
+mask: 187500
+cju7dglf226g50987ohbthl19.*
+cju7dglf226g50987ohbthl19.*
+cju7dglf226g50987ohbthl19  ----load----
+img: (621, 528)
+mask: (621, 528)
+(250, 250) RGB mask True
+cju7g7ba42z310987bqzbi2bq  --------
+img: 187500
+mask: 187500
+547.*
+547.*
+(250, 250) RGB mask False
+547  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju40jl7skiuo0817p0smlgg8.*
+cju40jl7skiuo0817p0smlgg8.*
+cju40jl7skiuo0817p0smlgg8  ----load----
+img: (601, 506)
+mask: (601, 506)
+(250, 250) RGB mask True
+cju32csyfblyh080170aa3x5p  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) L mask True
+547  --------
+img: 187500
+mask: 187500
+cju2qqn5ys4uo0988ewrt2ip2.*
+cju2qqn5ys4uo0988ewrt2ip2.*
+cju2qqn5ys4uo0988ewrt2ip2  ----load----
+img: (626, 546)
+mask: (626, 546)
+cju773hsyyosz0817pk1e7sjq.*
+cju773hsyyosz0817pk1e7sjq.*
+cju773hsyyosz0817pk1e7sjq  ----load----
+img: (618, 530)
+mask: (618, 530)
+(250, 250) RGB mask True
+cju7dglf226g50987ohbthl19  --------
+img: 187500
+mask: 187500
+cju2lz8vqktne0993fuym6drw.*
+cju2lz8vqktne0993fuym6drw.*
+cju2lz8vqktne0993fuym6drw  ----load----
+img: (613, 531)
+mask: (613, 531)
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju40jl7skiuo0817p0smlgg8  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+cju8buos5rz9b08715lfr0f4f.*
+cju8buos5rz9b08715lfr0f4f.*
+cju8buos5rz9b08715lfr0f4f  ----load----
+img: (576, 530)
+mask: (576, 530)
+(250, 250) RGB mask True
+cju2qqn5ys4uo0988ewrt2ip2  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju2lz8vqktne0993fuym6drw  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju773hsyyosz0817pk1e7sjq  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+587.*
+587.*
+587  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju7cue9b232j0801qdzk1ykj.*
+cju7cue9b232j0801qdzk1ykj.*
+cju7cue9b232j0801qdzk1ykj  ----load----
+img: (613, 528)
+mask: (613, 528)
+(250, 250) RGB mask True
+cju8buos5rz9b08715lfr0f4f  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+(250, 250) L mask True
+587  --------
+img: 187500
+mask: 187500
+4.*
+4.*
+4  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju32jcdabepz0878d0cznmfe.*
+cju32jcdabepz0878d0cznmfe.*
+cju32jcdabepz0878d0cznmfe  ----load----
+img: (622, 530)
+mask: (622, 530)
+(250, 250) RGB mask False
+(250, 250) L mask True
+4  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+603.*
+603.*
+603  ----load----
+img: (384, 288)
+mask: (384, 288)
+(250, 250) RGB mask True
+cju7cue9b232j0801qdzk1ykj  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+592.*
+592.*
+(250, 250) RGB mask False
+592  ----load----
+img: (384, 288)
+mask: (384, 288)
+(250, 250) L mask True
+603  --------
+img: 187500
+mask: 187500
+480.*
+480.*
+480  ----load----
+img: (384, 288)
+mask: (384, 288)
+(250, 250) RGB mask True
+cju32jcdabepz0878d0cznmfe  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask False
+(250, 250) L mask True
+592  --------
+img: 187500
+mask: 187500
+cju5fs6j6d8350801vglraq4u.*
+cju5fs6j6d8350801vglraq4u.*
+cju5fs6j6d8350801vglraq4u  ----load----
+img: (626, 547)
+mask: (626, 547)
+(250, 250) RGB mask False
+(250, 250) L mask True
+480  --------
+img: 187500
+mask: 187500
+cju1dia8hvc6v098827mgffnm.*
+cju1dia8hvc6v098827mgffnm.*
+cju1dia8hvc6v098827mgffnm  ----load----
+img: (616, 528)
+mask: (616, 528)
+(250, 250) RGB mask False
+(250, 250) RGB mask False
+(250, 250) RGB mask True
+cju5fs6j6d8350801vglraq4u  --------
+img: 187500
+mask: 187500
+(250, 250) RGB mask True
+cju1dia8hvc6v098827mgffnm  --------
+img: 187500
+mask: 187500
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      5
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images size:     [250.0, 250.0]
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 189, in <module>
+    amp=args.amp)
+  File "train.py", line 91, in train_net
+    loss = criterion(masks_pred, true_masks) \
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/modules/loss.py", line 1152, in forward
+    label_smoothing=self.label_smoothing)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/functional.py", line 2846, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: only batches of spatial targets supported (3D tensors) but got targets of size: : [5, 250, 250, 3]

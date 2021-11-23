@@ -1,0 +1,84 @@
+cju3xiic0ilzp0850lusrb42j.*
+cju3xiic0ilzp0850lusrb42j.*
+cju5cjh3xattc0817j2vbulzi.*
+cju5cjh3xattc0817j2vbulzi.*
+403.*
+403.*
+76.*
+76.*
+cju5cjh3xattc0817j2vbulzi  ----load----
+cju3xiic0ilzp0850lusrb42j  ----load----
+img: (617, 528)
+mask: (617, 528)
+img: (571, 530)
+mask: (571, 530)
+455.*
+455.*
+455  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju1871y11d6r0799k6cw4yze.*
+cju1871y11d6r0799k6cw4yze.*
+cju1871y11d6r0799k6cw4yze  ----load----
+img: (480, 531)
+mask: (480, 531)
+403  ----load----
+img: (384, 288)
+mask: (384, 288)
+76  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju7b5afm1nfw0801xqm8bf8q.*
+cju7b5afm1nfw0801xqm8bf8q.*
+cju5yimthmlv80850zhoc90c2.*
+cju5yimthmlv80850zhoc90c2.*
+cju7b5afm1nfw0801xqm8bf8q  ----load----
+img: (599, 531)
+mask: (599, 531)
+cju5yimthmlv80850zhoc90c2  ----load----
+img: (590, 528)
+mask: (590, 528)
+cju5uxjnol2r509871qv2yeia.*
+cju5uxjnol2r509871qv2yeia.*
+cju5uxjnol2r509871qv2yeia  ----load----
+img: (620, 531)
+mask: (620, 531)
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      5
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images size:     None
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    amp=args.amp)
+  File "train.py", line 76, in train_net
+    for batch in train_loader:
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/_utils.py", line 434, in reraise
+    raise exception
+AttributeError: Caught AttributeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataset.py", line 363, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/home/nicolas/workspace_josue/Pytorch-UNet/utils/data_loading.py", line 76, in __getitem__
+    img = self.preprocess(img, self.scale, is_mask=False)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataset.py", line 83, in __getattr__
+    raise AttributeError
+AttributeError

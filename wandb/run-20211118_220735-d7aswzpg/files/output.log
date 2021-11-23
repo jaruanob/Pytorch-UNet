@@ -1,0 +1,217 @@
+cju7eea9b2m0z0801ynqv1fqu.*
+cju7eea9b2m0z0801ynqv1fqu.*
+cju33yemn2qb20988wfjxximx.*
+cju33yemn2qb20988wfjxximx.*
+cju7dtb1e2j0t0818deq51ib3.*
+cju7dtb1e2j0t0818deq51ib3.*
+cju8cattbsivm0818p446wgel.*
+cju8cattbsivm0818p446wgel.*
+237915
+237915
+128.*
+128.*
+82944
+27648
+cju7d6ux323ze0987xos3srkx.*
+cju7d6ux323ze0987xos3srkx.*
+246450
+246450
+246312
+246312
+105.*
+105.*
+362.*
+362.*
+82944
+27648
+82944
+27648
+76.*
+76.*
+cju5ht88gedbu0755xrcuddcx.*
+cju5ht88gedbu0755xrcuddcx.*
+244590
+244590
+88.*
+88.*
+82944
+27648
+82944
+27648
+cju2iatlki5u309930zmgkv6h.*
+cju2iatlki5u309930zmgkv6h.*
+cju8bafgqrf4x0818twisk3ea.*
+cju8bafgqrf4x0818twisk3ea.*
+253071
+253071
+929016
+929016
+cju5u8gz4kj5b07552e2wpkwp.*
+cju5u8gz4kj5b07552e2wpkwp.*
+210675
+210675
+242730
+242730
+333.*
+333.*
+378.*
+378.*
+9.*
+9.*
+82944
+27648
+82944
+27648
+152.*
+152.*
+226575
+226575
+82944
+27648
+cju5vzjoslpj708186z2fusmz.*
+cju5vzjoslpj708186z2fusmz.*
+cju5f8hxdcxxn08188obby0ea.*
+cju5f8hxdcxxn08188obby0ea.*
+cju2yw4s7z7p20988lmf2gdgd.*
+cju2yw4s7z7p20988lmf2gdgd.*
+82944
+27648
+cjyzu9th0qt4r0a46pyl4zik0.*
+cjyzu9th0qt4r0a46pyl4zik0.*
+226575
+226575
+231384
+231384
+239460
+239460
+cju426tomlhll0818fc0i7nvh.*
+cju426tomlhll0818fc0i7nvh.*
+cju7db7lp2f400755tntd1ohf.*
+cju7db7lp2f400755tntd1ohf.*
+311040
+311040
+cju16d65tzw9d0799ouslsw25.*
+cju16d65tzw9d0799ouslsw25.*
+cju6z7e4bwgdd0987ogkzq9kt.*
+cju6z7e4bwgdd0987ogkzq9kt.*
+241560
+241560
+239598
+239598
+190800
+190800
+346.*
+346.*
+cju7es23b2vcp0755gpbm9s7v.*
+cju7es23b2vcp0755gpbm9s7v.*
+123.*
+123.*
+82944
+27648
+246312
+246312
+82944
+27648
+531.*
+531.*
+204.*
+204.*
+82944
+27648
+283.*
+283.*
+82944
+27648
+542.*
+542.*
+cju84ffdzkrjn08183jh1fxmb.*
+cju84ffdzkrjn08183jh1fxmb.*
+231264
+231264
+82944
+27648
+477.*
+477.*
+82944
+27648
+164.*
+164.*
+82944
+27648
+82944
+27648
+cju1d50a94qf50855wsowacrc.*
+cju1d50a94qf50855wsowacrc.*
+189.*
+189.*
+243936
+243936
+82944
+27648
+142.*
+142.*
+cju85qefyln6v0850szeb9byi.*
+cju85qefyln6v0850szeb9byi.*
+82944
+27648
+247245
+247245
+354.*
+354.*
+82944
+27648
+225720
+225720
+cju5wj0faly5008187n6530af.*
+cju5wj0faly5008187n6530af.*
+196.*
+196.*
+82944
+27648
+226575
+226575
+cju8ando2qqdo0818ck7i1be1.*
+cju8ando2qqdo0818ck7i1be1.*
+226575
+226575
+cju8dm2cau2km0818jsv9eeq2.*
+cju8dm2cau2km0818jsv9eeq2.*
+256347
+256347
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      5
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    amp=args.amp)
+  File "train.py", line 76, in train_net
+    for batch in train_loader:
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/_utils.py", line 434, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in default_collate
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in <dictcomp>
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 56, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: stack expects each tensor to be equal size, but got [3, 264, 311] at entry 0 and [3, 144, 192] at entry 1

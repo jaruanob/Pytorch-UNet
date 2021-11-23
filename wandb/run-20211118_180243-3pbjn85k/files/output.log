@@ -1,0 +1,127 @@
+cju84aoa3ktwn0755pfl4gfwd.*
+cju84aoa3ktwn0755pfl4gfwd.*
+cju773hsyyosz0817pk1e7sjq.*
+cju773hsyyosz0817pk1e7sjq.*
+cju7dhpsc2dnn0818025m6857.*
+cju2saez63gxl08559ucjq3kt.*
+cju7dhpsc2dnn0818025m6857.*
+cju2saez63gxl08559ucjq3kt.*
+cju8chdlqsu620755azjty1tj.*
+cju8chdlqsu620755azjty1tj.*
+12.*
+12.*
+302.*
+302.*
+cju5yjq1pmlgc0801z0t24bly.*
+cju5yjq1pmlgc0801z0t24bly.*
+cju31y80qbawn0801twwm2l5s.*
+cju31y80qbawn0801twwm2l5s.*
+cju3yht87j83m08507yk1u1fg.*
+cju3yht87j83m08507yk1u1fg.*
+cjyzlw7f9faqr070129au64sq.*
+cjyzlw7f9faqr070129au64sq.*
+236.*
+236.*
+467.*
+467.*
+cju5von04litr08718j8po40a.*
+cju5von04litr08718j8po40a.*
+521.*
+521.*
+55.*
+55.*
+cju3xl264ingx0850rcf0rshj.*
+cju3xl264ingx0850rcf0rshj.*
+cju30nyxe0gfb0835p256yoju.*
+cju30nyxe0gfb0835p256yoju.*
+cju14pxbaoksp0835qzorx6g6.*
+cju14pxbaoksp0835qzorx6g6.*
+24.*
+24.*
+cju6v6g6kvdw007552x6mb0po.*
+cju6v6g6kvdw007552x6mb0po.*
+cju2ouil2mssu0993hvxsed6d.*
+cju2ouil2mssu0993hvxsed6d.*
+cju2syxa93yw40799x2iuwabz.*
+cju2syxa93yw40799x2iuwabz.*
+cju88l66no10s0850rsda7ej1.*
+cju88l66no10s0850rsda7ej1.*
+223.*
+223.*
+cju6xa0qmvzun0818xjukgncj.*
+cju6xa0qmvzun0818xjukgncj.*
+cju0vtox5ain6099360pu62rp.*
+cju0vtox5ain6099360pu62rp.*
+587.*
+587.*
+cju5u8gz4kj5b07552e2wpkwp.*
+cju5u8gz4kj5b07552e2wpkwp.*
+cju8arof2qpf20850ifr1bnqj.*
+cju8arof2qpf20850ifr1bnqj.*
+cju8ca4geseia0850i2ru11hw.*
+cju8ca4geseia0850i2ru11hw.*
+cju8cwy02t9eq08185qn12c02.*
+cju8cwy02t9eq08185qn12c02.*
+cju3xhpvvimda0987ygrpzni2.*
+cju3xhpvvimda0987ygrpzni2.*
+293.*
+293.*
+255.*
+255.*
+cju2zdvjn9h7r08553cp4eed5.*
+cju2zdvjn9h7r08553cp4eed5.*
+cju8czvnztbf40871b4m7t78w.*
+cju8czvnztbf40871b4m7t78w.*
+32.*
+32.*
+cju40w3hbkwpn08015rbs3wko.*
+cju40w3hbkwpn08015rbs3wko.*
+208.*
+208.*
+cju8azmhcr66e0755t61atz72.*
+cju8azmhcr66e0755t61atz72.*
+cju1fr4etsmrr09933u4t4aql.*
+cju1fr4etsmrr09933u4t4aql.*
+606.*
+606.*
+cju3uz4o6gr9z0850lhxyxvsj.*
+cju3uz4o6gr9z0850lhxyxvsj.*
+202.*
+202.*
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      5
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    amp=args.amp)
+  File "train.py", line 76, in train_net
+    for batch in train_loader:
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/_utils.py", line 434, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in default_collate
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in <dictcomp>
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 56, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: stack expects each tensor to be equal size, but got [3, 273, 313] at entry 0 and [3, 144, 192] at entry 1

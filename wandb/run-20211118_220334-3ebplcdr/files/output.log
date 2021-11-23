@@ -1,0 +1,127 @@
+cju7cufm7298k0755j09uf3of.*
+cju7cufm7298k0755j09uf3of.*
+cju1erep75us208553i4ofwwe.*
+cju1erep75us208553i4ofwwe.*
+cju7druhp2gp308715i6km7be.*
+cju7druhp2gp308715i6km7be.*
+67.*
+67.*
+444.*
+444.*
+461.*
+461.*
+322.*
+322.*
+cju5bycdkalkb09875f7bfrvx.*
+cju5bycdkalkb09875f7bfrvx.*
+cju0tl3uz8blh0993wxvn7ly3.*
+cju0tl3uz8blh0993wxvn7ly3.*
+244.*
+244.*
+cju0rx1idathl0835detmsp84.*
+cju0rx1idathl0835detmsp84.*
+609.*
+609.*
+375.*
+375.*
+cju772304yw5t0818vbw8kkjf.*
+cju772304yw5t0818vbw8kkjf.*
+608.*
+608.*
+395.*
+395.*
+297.*
+297.*
+cju77t0razbvm080106o56289.*
+cju77t0razbvm080106o56289.*
+cju88q6h6obpd0871ckmiabbo.*
+cju88q6h6obpd0871ckmiabbo.*
+cju84kplnl1y30755ropua1b0.*
+cju84kplnl1y30755ropua1b0.*
+26.*
+26.*
+36.*
+36.*
+248.*
+248.*
+151.*
+151.*
+cju30ia8da2bq0799klnehml2.*
+cju30ia8da2bq0799klnehml2.*
+cju77u1sjz77b0817ft44r3fk.*
+cju77u1sjz77b0817ft44r3fk.*
+cju8axq24r4an0755yhv9d4ly.*
+cju8axq24r4an0755yhv9d4ly.*
+271.*
+271.*
+536.*
+536.*
+cju3x9lttikfb0818a0g104zn.*
+cju3x9lttikfb0818a0g104zn.*
+cju85bf1algsq0871y9gtlq97.*
+cju85bf1algsq0871y9gtlq97.*
+cju418rckl3ur08012psrx1r1.*
+cju418rckl3ur08012psrx1r1.*
+cju1fmsyf6gxb0801cimx2gle.*
+cju1fmsyf6gxb0801cimx2gle.*
+cju1fj6axwfp30835ukhuzhw9.*
+cju1fj6axwfp30835ukhuzhw9.*
+255.*
+255.*
+cju5ufn3skquf0818dhapnhba.*
+cju5ufn3skquf0818dhapnhba.*
+102.*
+102.*
+118.*
+118.*
+cju6vgdmivcvb08018fra5lnv.*
+cju6vgdmivcvb08018fra5lnv.*
+cju2nd7l7z98o0799gfjvyfmw.*
+cju2nd7l7z98o0799gfjvyfmw.*
+cju2lz8vqktne0993fuym6drw.*
+cju2lz8vqktne0993fuym6drw.*
+544.*
+544.*
+cju5w7xn0lrkq0801f9k0htgx.*
+cju5w7xn0lrkq0801f9k0htgx.*
+cju7emdni2py40871ivhxjtut.*
+cju7emdni2py40871ivhxjtut.*
+262.*
+262.*
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      5
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    amp=args.amp)
+  File "train.py", line 76, in train_net
+    for batch in train_loader:
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/_utils.py", line 434, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in default_collate
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in <dictcomp>
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 56, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: stack expects each tensor to be equal size, but got [3, 273, 313] at entry 0 and [3, 144, 192] at entry 1

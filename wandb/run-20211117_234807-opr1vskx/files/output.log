@@ -1,0 +1,41 @@
+cju8c9akjsdjj0850s67uzlxq.*
+cju8c9akjsdjj0850s67uzlxq.*
+cju7cq6su27qv075574dir0r3.*
+cju7cq6su27qv075574dir0r3.*
+cju34sh43d8zm08019xbwhc0o.*
+cju34sh43d8zm08019xbwhc0o.*
+cju8828oxnool0801qno9luhr.*
+cju8828oxnool0801qno9luhr.*
+cju85nr8elly209872w9n5m0s.*
+cju85nr8elly209872w9n5m0s.*
+477.*
+477.*
+cju8bn7m2rmm70817hgxpb1uq.*
+cju8bn7m2rmm70817hgxpb1uq.*
+447.*
+447.*
+74.*
+74.*
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    amp=args.amp)
+  File "train.py", line 90, in train_net
+    loss = criterion(masks_pred, true_masks) \
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/modules/loss.py", line 1152, in forward
+    label_smoothing=self.label_smoothing)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/nn/functional.py", line 2846, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: only batches of spatial targets supported (3D tensors) but got targets of size: : [1, 259, 285, 3]

@@ -1,0 +1,84 @@
+39.*
+39.*
+cju2yg5ht8i4p087800js8hp4.*
+cju7dda8w2br20818zhsuz8s7.*
+cju2yg5ht8i4p087800js8hp4.*
+cju7dda8w2br20818zhsuz8s7.*
+cju1egx9pvz2n0988eoy8jp23.*
+cju1egx9pvz2n0988eoy8jp23.*
+39  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju2yg5ht8i4p087800js8hp4  ----load----
+cju1egx9pvz2n0988eoy8jp23  ----load----
+img: (626, 546)
+mask: (626, 546)
+img: (622, 529)
+mask: (622, 529)
+cju7dda8w2br20818zhsuz8s7  ----load----
+img: (564, 530)
+mask: (564, 530)
+cju2sggy13na70855tbeoqgha.*
+cju2sggy13na70855tbeoqgha.*
+cju7b5afm1nfw0801xqm8bf8q.*
+cju7b5afm1nfw0801xqm8bf8q.*
+226.*
+226.*
+cju2sggy13na70855tbeoqgha  ----load----
+img: (559, 530)
+cju7b5afm1nfw0801xqm8bf8q  ----load----
+mask: (559, 530)
+img: (599, 531)
+mask: (599, 531)
+226  ----load----
+img: (384, 288)
+mask: (384, 288)
+cju1fr4etsmrr09933u4t4aql.*
+cju1fr4etsmrr09933u4t4aql.*
+cju1fr4etsmrr09933u4t4aql  ----load----
+img: (570, 521)
+mask: (570, 521)
+505.*
+505.*
+505  ----load----
+img: (384, 288)
+mask: (384, 288)
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      5
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images size:     None
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    amp=args.amp)
+  File "train.py", line 76, in train_net
+    for batch in train_loader:
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/_utils.py", line 434, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataset.py", line 363, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/home/nicolas/workspace_josue/Pytorch-UNet/utils/data_loading.py", line 76, in __getitem__
+    img = self.preprocess(img, self.img_size, is_mask=False)
+  File "/home/nicolas/workspace_josue/Pytorch-UNet/utils/data_loading.py", line 30, in preprocess
+    newW, newH = int(img_size[0]), int(img_size[1])#w,h
+TypeError: 'NoneType' object is not subscriptable

@@ -28,13 +28,11 @@ def train_net(net,
               learning_rate: float = 0.001,
               val_percent: float = 0.1,
               save_checkpoint: bool = True,
-              img_scale: float = 0.5,
+              img_size: tuple = (250,250),#w,h
               amp: bool = False):
     # 1. Create dataset
-    try:
-        dataset = CarvanaDataset(dir_img, dir_mask, img_scale)
-    except (AssertionError, RuntimeError):
-        dataset = BasicDataset(dir_img, dir_mask, img_scale)
+    print('##########',img_size)
+    dataset = BasicDataset(dir_img, dir_mask, img_size)
 
     # 2. Split into train / validation partitions
     n_val = int(len(dataset) * val_percent)
@@ -49,7 +47,7 @@ def train_net(net,
     # (Initialize logging)
     experiment = wandb.init(project='U-Net', resume='allow', anonymous='must')
     experiment.config.update(dict(epochs=epochs, batch_size=batch_size, learning_rate=learning_rate,
-                                  val_percent=val_percent, save_checkpoint=save_checkpoint, img_scale=img_scale,
+                                  val_percent=val_percent, save_checkpoint=save_checkpoint, img_size=img_size,
                                   amp=amp))
 
     logging.info(f'''Starting training:
@@ -60,7 +58,7 @@ def train_net(net,
         Validation size: {n_val}
         Checkpoints:     {save_checkpoint}
         Device:          {device.type}
-        Images scaling:  {img_scale}
+        Images size:     {img_size}
         Mixed Precision: {amp}
     ''')
 
@@ -79,6 +77,10 @@ def train_net(net,
             for batch in train_loader:
                 images = batch['image']
                 true_masks = batch['mask']
+                print('-'*50)
+                print(images.shape)
+                print(true_masks.shape)
+                print('classes:', net.n_classes)
 
                 assert images.shape[1] == net.n_channels, \
                     f'Network has been defined with {net.n_channels} input channels, ' \
@@ -87,7 +89,8 @@ def train_net(net,
 
                 images = images.to(device=device, dtype=torch.float32)
                 true_masks = true_masks.to(device=device, dtype=torch.long)
-
+                print(images.shape)
+                print(true_masks.shape)
                 with torch.cuda.amp.autocast(enabled=amp):
                     masks_pred = net(images)
                     loss = criterion(masks_pred, true_masks) \
@@ -150,7 +153,7 @@ def get_args():
     parser.add_argument('--learning-rate', '-l', metavar='LR', type=float, default=0.00001,
                         help='Learning rate', dest='lr')
     parser.add_argument('--load', '-f', type=str, default=False, help='Load model from a .pth file')
-    parser.add_argument('--scale', '-s', type=float, default=0.5, help='Downscaling factor of the images')
+    parser.add_argument('--img_size', '-s', type=float, nargs='+', help='Size of input images in the model')
     parser.add_argument('--validation', '-v', dest='val', type=float, default=10.0,
                         help='Percent of the data that is used as validation (0-100)')
     parser.add_argument('--amp', action='store_true', default=False, help='Use mixed precision')
@@ -186,7 +189,7 @@ if __name__ == '__main__':
                   batch_size=args.batch_size,
                   learning_rate=args.lr,
                   device=device,
-                  img_scale=args.scale,
+                  img_size=args.img_size,
                   val_percent=args.val / 100,
                   amp=args.amp)
     except KeyboardInterrupt:

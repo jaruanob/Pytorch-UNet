@@ -10,11 +10,10 @@ from torch.utils.data import Dataset
 
 
 class BasicDataset(Dataset):
-    def __init__(self, images_dir: str, masks_dir: str, scale: float = 1.0, mask_suffix: str = ''):
+    def __init__(self, images_dir: str, masks_dir: str, img_size: tuple = (250,250), mask_suffix: str = ''):
         self.images_dir = Path(images_dir)
         self.masks_dir = Path(masks_dir)
-        assert 0 < scale <= 1, 'Scale must be between 0 and 1'
-        self.scale = scale
+        self.img_size = img_size
         self.mask_suffix = mask_suffix
 
         self.ids = [splitext(file)[0] for file in listdir(images_dir) if not file.startswith('.')]
@@ -26,17 +25,19 @@ class BasicDataset(Dataset):
         return len(self.ids)
 
     @classmethod
-    def preprocess(cls, pil_img, scale, is_mask):
+    def preprocess(cls, pil_img, img_size, is_mask):
         w, h = pil_img.size
-        newW, newH = int(scale * w), int(scale * h)
-        assert newW > 0 and newH > 0, 'Scale is too small, resized images would have no pixel'
+        newW, newH = int(img_size[0]), int(img_size[1])#w,h
+        #if is_mask: pil_img = pil_img.convert('L')
         pil_img = pil_img.resize((newW, newH), resample=Image.NEAREST if is_mask else Image.BICUBIC)
+        #pil_img = pil_img.convert('RGB')
+        #print(pil_img.size, pil_img.mode,'mask',is_mask)
         img_ndarray = np.asarray(pil_img)
 
         if img_ndarray.ndim == 2 and not is_mask:
             img_ndarray = img_ndarray[np.newaxis, ...]
-        elif not is_mask:
-            img_ndarray = img_ndarray.transpose((2, 0, 1))
+        #elif not is_mask:
+        img_ndarray = img_ndarray.transpose((2, 0, 1))
 
         if not is_mask:
             img_ndarray = img_ndarray / 255
@@ -57,7 +58,9 @@ class BasicDataset(Dataset):
         name = self.ids[idx]
         mask_file = list(self.masks_dir.glob(name + self.mask_suffix + '.*'))
         img_file = list(self.images_dir.glob(name + '.*'))
-
+        
+        #print(name + self.mask_suffix + '.*')
+        #print(name + '.*')
         assert len(mask_file) == 1, f'Either no mask or multiple masks found for the ID {name}: {mask_file}'
         assert len(img_file) == 1, f'Either no image or multiple images found for the ID {name}: {img_file}'
         mask = self.load(mask_file[0])
@@ -66,9 +69,16 @@ class BasicDataset(Dataset):
         assert img.size == mask.size, \
             'Image and mask {name} should be the same size, but are {img.size} and {mask.size}'
 
-        img = self.preprocess(img, self.scale, is_mask=False)
-        mask = self.preprocess(mask, self.scale, is_mask=True)
+        #print(name,self.mask_suffix,'----load----')
+        #print('img:',img.size)
+        #print('mask:',mask.size)
 
+
+        img = self.preprocess(img, self.img_size, is_mask=False)
+        mask = self.preprocess(mask, self.img_size, is_mask=True)
+        #print(name,self.mask_suffix,'--------') 
+        #print('img:',img.size)
+        #print('mask:',mask.size)
         return {
             'image': torch.as_tensor(img.copy()).float().contiguous(),
             'mask': torch.as_tensor(mask.copy()).long().contiguous()

@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.4.0-42-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.11",
+    "heartbeatAt": "2021-11-18T23:08:18.148235",
+    "startedAt": "2021-11-18T23:08:17.210967",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--amp",
+        "--batch-size",
+        "2",
+        "--img_size",
+        "250",
+        "250"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/jaruanob/Pytorch-UNet.git",
+        "commit": "e1a69e7c6ce18edd47271b01e4aabc03b436753d"
+    },
+    "email": "anon@ymo.us",
+    "root": "/home/nicolas/workspace_josue/Pytorch-UNet",
+    "host": "ueiaar3",
+    "username": "nicolas",
+    "executable": "/home/nicolas/anaconda3/envs/josue_torch/bin/python"
+}

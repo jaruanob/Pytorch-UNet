@@ -1,0 +1,127 @@
+478.*
+478.*
+cju8cbsyssiqj0871gr4jedjp.*
+cju8cbsyssiqj0871gr4jedjp.*
+305.*
+305.*
+608.*
+608.*
+441.*
+441.*
+543.*
+543.*
+cju2xd75m82720801q4s4ik3n.*
+cju2xd75m82720801q4s4ik3n.*
+211.*
+211.*
+169.*
+169.*
+cju2ycp1u8g2r0799jslnp7cz.*
+cju2ycp1u8g2r0799jslnp7cz.*
+cju8ayeq7r1fb0818z1junacy.*
+cju8ayeq7r1fb0818z1junacy.*
+cju7dubap2g0w0801fgl42mg9.*
+cju7dubap2g0w0801fgl42mg9.*
+588.*
+588.*
+cju88l66no10s0850rsda7ej1.*
+cju88l66no10s0850rsda7ej1.*
+cju2p0eveqtdc0835gpi3p93i.*
+cju2p0eveqtdc0835gpi3p93i.*
+cju8czvnztbf40871b4m7t78w.*
+cju8czvnztbf40871b4m7t78w.*
+352.*
+352.*
+cju885ikhnmkn09878s2lqtuh.*
+cju885ikhnmkn09878s2lqtuh.*
+513.*
+513.*
+cju7dda8w2br20818zhsuz8s7.*
+cju7dda8w2br20818zhsuz8s7.*
+cju2saez63gxl08559ucjq3kt.*
+cju2saez63gxl08559ucjq3kt.*
+cju326h4v1gxw08352px40p7r.*
+cju326h4v1gxw08352px40p7r.*
+cju2m56cryvqd0801gtn2yp8t.*
+cju2m56cryvqd0801gtn2yp8t.*
+55.*
+55.*
+cju2r91dg2k090801bh0xzbxk.*
+cju2r91dg2k090801bh0xzbxk.*
+cju1egx9pvz2n0988eoy8jp23.*
+cju1egx9pvz2n0988eoy8jp23.*
+cju3uwz6ogsp10801h2r3bj5l.*
+cju3uwz6ogsp10801h2r3bj5l.*
+cju7druhp2gp308715i6km7be.*
+cju7druhp2gp308715i6km7be.*
+cju15l5ubz9yh0855b3ivdpse.*
+cju15l5ubz9yh0855b3ivdpse.*
+cju783tmkzkqu081803g7q5vk.*
+cju783tmkzkqu081803g7q5vk.*
+cju303j5r062k098835zxfds5.*
+cju303j5r062k098835zxfds5.*
+373.*
+373.*
+293.*
+293.*
+503.*
+503.*
+430.*
+430.*
+cju5tenjojp1j0755ms4949h2.*
+cju5tenjojp1j0755ms4949h2.*
+13.*
+13.*
+223.*
+223.*
+238.*
+238.*
+175.*
+175.*
+cju2zgbj9zmrw0835nnlzxj4c.*
+cju2zgbj9zmrw0835nnlzxj4c.*
+cju43eigtm6ev0801mv0m96t1.*
+cju43eigtm6ev0801mv0m96t1.*
+cju6z600qwh4z081700qimgl9.*
+cju6z600qwh4z081700qimgl9.*
+477.*
+477.*
+cju8bgdmqrksy0801tozdmraa.*
+cju8bgdmqrksy0801tozdmraa.*
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      5
+        Learning rate:   1e-05
+        Training size:   1305
+        Validation size: 145
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                     | 0/1305 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    amp=args.amp)
+  File "train.py", line 76, in train_net
+    for batch in train_loader:
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1203, in _next_data
+    return self._process_data(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1229, in _process_data
+    data.reraise()
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/_utils.py", line 434, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in default_collate
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 74, in <dictcomp>
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/nicolas/anaconda3/envs/josue_torch/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 56, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: stack expects each tensor to be equal size, but got [3, 144, 192] at entry 0 and [3, 265, 308] at entry 3
